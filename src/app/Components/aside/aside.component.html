@@ -1,0 +1,24 @@
+<aside>
+   <div class="profil-box">
+        <div class="img">
+            <img [src]="pic">
+        </div>
+        <div class="name">
+            <p>Sasha</p>
+            <span>level 12</span>
+        </div>
+   </div>
+   <nav>
+    <ul class="nav-box">
+        <li *ngFor="let nav of navMenu " routerLinkActive="active">
+            <!-- <span>{{nav.icon}}</span> -->
+            <i class="{{nav.icon}}"></i>
+            <a routerLink="{{nav.link}}">{{nav.link}}</a>
+        </li>
+    </ul>
+   </nav>
+   <div class="toggle-Dark">
+    <!-- <button><i class="fa-solid fa-lightbulb"></i>Light</button>
+    <button><i class="fa-solid fa-moon"></i>Dark</button> -->
+   </div> 
+</aside>

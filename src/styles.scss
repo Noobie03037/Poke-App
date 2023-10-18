@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a, span, p, h1, h2{
+    text-transform: lowercase!important;
+    &::first-letter{
+        text-transform: uppercase;
+    }
+}
+body{
+    height: 100vh;
+    font-family: 'Russo One', sans-serif;
+
+    p, h1{
+        color: #464646;
+    }
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}

@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    text-transform: lowercase;
+    &::first-letter{
+        text-transform: uppercase;
+    }
+}
+
+
+.Render{
+    min-height: 100vh;
+    width: 100%;
+    padding: 1rem .7rem;
+}

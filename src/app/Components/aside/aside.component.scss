@@ -1,0 +1,188 @@
+aside{
+    background-image: linear-gradient(
+  0deg,
+  hsl(94deg 48% 80%) 0%,
+  hsl(96deg 47% 79%) 17%,
+  hsl(97deg 45% 79%) 25%,
+  hsl(100deg 46% 79%) 31%,
+  hsl(103deg 44% 79%) 37%,
+  hsl(105deg 43% 79%) 42%,
+  hsl(107deg 42% 78%) 47%,
+  hsl(109deg 41% 78%) 53%,
+  hsl(112deg 39% 78%) 58%,
+  hsl(112deg 40% 78%) 63%,
+  hsl(115deg 39% 78%) 69%,
+  hsl(117deg 37% 77%) 75%,
+  hsl(119deg 36% 77%) 83%,
+  hsl(121deg 35% 77%) 100%
+);
+// gradient-end
+    position: fixed;
+    width: 250px;
+    max-width: 270px;
+    height: 100%;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.7rem 0rem;
+}
+
+aside .nav-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem 0;
+
+    li{
+        display: flex;
+        align-items: center;
+        gap: .7rem;
+        padding: 1rem;
+        cursor: pointer;
+        a, i{
+            color: #284640;
+        }
+
+        &:hover{
+            background-image: linear-gradient(
+                90deg,
+                hsl(168deg 23% 30%) 0%,
+                hsl(164deg 24% 34%) 17%,
+                hsl(161deg 25% 37%) 25%,
+                hsl(157deg 26% 41%) 31%,
+                hsl(154deg 27% 45%) 37%,
+                hsl(150deg 28% 48%) 42%,
+                hsl(147deg 28% 52%) 47%,
+                hsl(143deg 30% 55%) 53%,
+                hsl(139deg 30% 59%) 58%,
+                hsl(136deg 32% 63%) 63%,
+                hsl(132deg 33% 66%) 69%,
+                hsl(128deg 33% 70%) 75%,
+                hsl(125deg 34% 73%) 83%,
+                hsl(121deg 35% 77%) 100%
+              );
+              a, i{
+                color: #D0E7D2;
+              }
+        }
+    }
+}
+
+
+// profile
+aside .profil-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    gap: .4rem;
+    .img{
+        width: 20%;
+        border-radius: 50%!important;
+        overflow: hidden;
+        outline: 3px solid #345049;
+    }
+
+
+
+.name{
+    width: 80%;
+    // text-align: left;
+    p{
+        font-size: 1.4rem;
+        color: #49554a;
+    }
+    span{
+        font-size: .8rem;
+        color: #49554a;
+    }
+}}
+
+
+.toggle-Dark{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    button{
+        width: 47%;
+        padding: .525rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-image: linear-gradient(
+            90deg,
+            hsl(101, 56%, 72%) 0%,
+            hsl(102deg 54% 70%) 17%,
+            hsl(103deg 51% 69%) 25%,
+            hsl(105deg 48% 68%) 31%,
+            hsl(107deg 46% 67%) 37%,
+            hsl(108deg 43% 66%) 42%,
+            hsl(109deg 41% 65%) 47%,
+            hsl(110deg 38% 64%) 53%,
+            hsl(112deg 36% 63%) 58%,
+            hsl(113deg 34% 62%) 63%,
+            hsl(114deg 31% 61%) 69%,
+            hsl(116deg 29% 59%) 75%,
+            hsl(118deg 26% 58%) 83%,
+            hsl(119deg 24% 57%) 100%
+          );
+
+          color: #284640;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: .4rem;
+          border-radius: 5px;
+          font-family: 'Bungee', sans-serif;
+    }
+}
+
+.toggle-Dark button{
+    &:hover{
+        background-image: linear-gradient(
+            90deg,
+            hsl(168deg 23% 30%) 10%,
+            hsl(164deg 24% 34%) 17%,
+            hsl(161deg 25% 37%) 25%,
+            hsl(157deg 26% 41%) 31%,
+            hsl(154deg 27% 45%) 37%,
+            hsl(150deg 28% 48%) 42%,
+            hsl(147deg 28% 52%) 47%,
+            hsl(143deg 30% 55%) 53%,
+            hsl(139deg 30% 59%) 58%,
+            hsl(136deg 32% 63%) 63%,
+            hsl(132deg 33% 66%) 69%,
+            hsl(128deg 33% 70%) 75%,
+            hsl(125deg 34% 73%) 83%,
+            hsl(121deg 35% 77%) 100%
+          );
+          color: #D0E7D2;
+    }
+}
+
+.active{
+        background-image: linear-gradient(
+            90deg,
+            hsl(168deg 23% 30%) 0%,
+            hsl(164deg 24% 34%) 17%,
+            hsl(161deg 25% 37%) 25%,
+            hsl(157deg 26% 41%) 31%,
+            hsl(154deg 27% 45%) 37%,
+            hsl(150deg 28% 48%) 42%,
+            hsl(147deg 28% 52%) 47%,
+            hsl(143deg 30% 55%) 53%,
+            hsl(139deg 30% 59%) 58%,
+            hsl(136deg 32% 63%) 63%,
+            hsl(132deg 33% 66%) 69%,
+            hsl(128deg 33% 70%) 75%,
+            hsl(125deg 34% 73%) 83%,
+            hsl(121deg 35% 77%) 100%
+          );
+          a, i{
+            color: #D0E7D2!important;
+          }
+}
